@@ -35,7 +35,7 @@
 }
 
 body {
-    background-color: #f8f3e8;
+    background-color: #a5c7f5;
 }
 
 ul {
@@ -76,99 +76,6 @@ header {
     z-index: 5;
 }
 
-header .navbar {
-    display: flex;
-    padding: 20px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.nav-left {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.logo-text {
-    color: var(--white-color);
-    font-size: 20px;
-    font-weight: var(--font-weight-bold);
-    padding-right: 0;
-}
-
-.logo-link {
-    color: var(--white-color);
-}
-
-.navbar .nav-logo .logo-text {
-    color: var(--white-color);
-    font-size: var(--font-size-xl);
-    font-weight: var(--font-weight-semibold);
-}
-
-.navbar .nav-menu {
-    display: flex;
-    gap: 10px;
-}
-
-.navbar .nav-menu .nav-link {
-    padding: 10px 18px;
-    color: var(--white-color);
-    font-size: var(--font-size-m);
-    border-radius: var(--border-radius-m);
-    transition: 0.3s ease;
-}
-
-.navbar .nav-menu .nav-link:hover {
-    color: var(--white-color);
-}
-
-/* .sidebar {
-    position: fixed;
-    top: 80px;
-    left: 0;
-    width: 220px;
-    height: calc(100% - 80px);
-    padding: 20px;
-    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
-    z-index: 4;
-} */
-
-.perfil {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.perfil img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.perfil p {
-    font-weight: bold;
-    color: #333;
-}
-
-.menu-lateral a {
-    display: block;
-    margin: 10px 0;
-    color: #333;
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-.menu-lateral a:hover {
-    color: var(--brown-color);
-}
 
 main {
     margin-left: 220px;
@@ -207,124 +114,7 @@ main {
     transform: scale(1.08);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-/* .sidebar {
-    position: fixed;
-    top: 80px;
-    left: 0;
-    width: 220px;
-    height: calc(100% - 80px);
-    background-color: #995439;
-    padding: 20px;
-    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
-    z-index: 4;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-} */
 
-.perfil {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.perfil img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.perfil p {
-    font-weight: bold;
-    color: #333;
-}
-
-.menu-lateral {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.menu-lateral a {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  padding: 12px 16px;
-  color: #5f281f;
-  font-weight: 500;
-  background-color: #ffe8d6;
-  border-radius: 12px;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-}
-
-.menu-lateral a .emoji {
-  font-size: 1.6rem;
-}
-
-.menu-lateral a .text {
-  font-size: 1rem;
-}
-
-.menu-lateral a:hover {
-  background-color: #ffbc8a;
-  transform: translateX(5px);
-  color: #ffffff;
-}
-
-.sidebar {
-  position: fixed;
-  top: 80px;
-  left: 0;
-  width: 240px;
-  height: calc(100% - 80px);
-  background-color: #ebc3a9;
-  padding: 20px;
-  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
-  z-index: 4;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  transition: width 0.3s ease;
-  overflow: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-
-.sidebar .perfil {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.sidebar.closed {
-  width: 70px;
-  padding: 20px 10px;
-}
-
-.sidebar .perfil img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-bottom: 8px;
-  border: 3px solid #ffd8b1;
-}
-
-.sidebar .perfil p {
-  font-weight: 600;
-  color: #5f281f;
-  font-size: 1.1rem;
-}
-
-.sidebar.closed .perfil p,
-.sidebar.closed .menu-lateral {
-  display: none;
-}
-
-.sidebar.closed .menu-lateral a {
-  justify-content: center;
-  padding: 12px;
-}
 
 .pomodoro-container {
 
@@ -348,7 +138,7 @@ main {
 
 .timer-side {
   flex: 1;
-  background-color: #ffe8d6;
+  background-color: #374779;
   border-radius: 20px;
   padding: 40px;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
@@ -357,14 +147,14 @@ main {
 
 .timer-side h1 {
   font-family: 'Press Start 2P', cursive;
-  color: #5f281f;
+  color: #374779;
   margin-bottom: 20px;
 }
 
 .timer-display {
   font-size: 4rem;
   font-weight: bold;
-  color: #d26827;
+  color: #374779;
   margin: 20px 0;
 }
 
@@ -378,7 +168,7 @@ main {
   width: 60px;
   padding: 5px;
   border-radius: 8px;
-  border: 2px solid #d26827;
+  border: 2px solid #374779;
   text-align: center;
 }
 
@@ -396,7 +186,7 @@ main {
   padding: 10px 16px;
   border-radius: 10px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .buttons button:hover {
@@ -415,7 +205,7 @@ main {
 }
 
 .pomodoro-container {
-  background-color: #ffe8d6;
+  background-color: #374779;
   border-radius: 20px;
   padding: 30px;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
@@ -423,18 +213,6 @@ main {
   max-width: 600px;
   margin: 120px auto; /* Centraliza na tela */
   text-align: center;
-}
-
-.monkey-side {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.monkey-img {
-  width: 150px;
-  max-width: 50%;
 }
 
 .pomodoro-page {
@@ -446,7 +224,7 @@ main {
 }
 
 .timer-box {
-  background-color: #ffe8d6;
+  background-color: #536fc6;
   border-radius: 20px;
   padding: 40px;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
@@ -462,7 +240,7 @@ main {
 
 .timer-box h1 {
   font-family: 'Press Start 2P', cursive;
-  color: #5f281f;
+  color: #ffffff;
   margin-bottom: 20px;
   font-size: 1.2rem;
 }
@@ -470,7 +248,7 @@ main {
 .timer-display {
   font-size: 4rem;
   font-weight: bold;
-  color: #d26827;
+  color: #0b1d51;
   margin: 20px 0;
 }
 
@@ -479,14 +257,14 @@ main {
   display: block;
   margin: 10px 0;
   font-weight: 600;
-  color: #5f281f;
+  color: #0b1d51;
 }
 
 .controls input {
   width: 60px;
   padding: 5px;
   border-radius: 8px;
-  border: 2px solid #d26827;
+  border: 2px solid #374779;
   text-align: center;
 }
 
@@ -498,22 +276,22 @@ main {
 }
 
 .buttons button {
-  background-color: #d26827;
+  background-color: #0b1d51;
   color: white;
   border: none;
   padding: 10px 16px;
   border-radius: 10px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .buttons button:hover {
-  background-color: #a24e1d;
+  background-color: #0b1d51;
 }
 
 .timer-side h1 {
   font-family: 'Press Start 2P', cursive;
-  color: #5f281f;
+  color: #374779;
   margin-bottom: 20px;
   font-size: 1.2rem;
 }

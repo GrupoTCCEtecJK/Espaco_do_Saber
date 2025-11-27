@@ -30,7 +30,7 @@
                                 <i class="bi bi-robot fs-1 mb-3 text-secondary"></i>
                                 <h5 class="card-title fw-semibold">Heleno</h5>
                                 <p class="card-text text-muted">Tire suas dúvidas e aprofunde-se nos estudos com nossa IA.</p>
-                                <a href="#" class="btn btn-secondary rounded-pill mt-3 px-4">Conversar</a>
+                                <a href="../heleno/heleno.php" class="btn btn-secondary rounded-pill mt-3 px-4">Conversar</a>
                             </div>
                         </div>
                     </div>

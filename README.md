@@ -53,6 +53,6 @@ Além de oferecer ferramentas tradicionais de aprendizagem, o projeto explora a 
 ## 👨‍💻 Desenvolvedores
 
 
-Carol Siqueira, Rebeka Lima, Gabriel Cleyton e Gabriel Sheldes
+Karol Siqueira, Rebeka Lima, Gabriel Cleyton e Gabriel Sheldes
 
 ⭐ Se você gostou do projeto, considere deixar uma estrela no repositório!
